@@ -1,0 +1,26 @@
+server:
+  port: 8081
+
+
+config:
+  mock:
+    random:
+      objA1:
+        100: 50
+        101: 50
+      objA2:
+        102: 50
+        103: 50
+    feature:
+      objB1:
+        200: "feat0"
+        201: "feat1"
+      objB2:
+        202: "feat2"
+        203: "feat3"
+
+test:
+  lst:
+    objB2:
+      202: "feat2"
+      203: "feat3"
